@@ -1,0 +1,15 @@
+2021-07-28 19:50:27  BatchAdjust.R
+basedir:.
+outdir:./Results
+channelsFile:ChannelsToAdjust.txt
+batchKeyword:T_live_
+anchorKeyword:Ns
+transformation:FALSE
+nz_only:FALSE
+method:95p
+Reading channels file: ChannelsToAdjust.txt
+Adjusting 15 channels.
+batchesToAdjust:
+1 2
+2021-07-28 19:50:27  Start loading events batch: 1 (1 of 2)
+2021-07-28 19:50:27  Start loading events batch: 2 (2 of 2)
