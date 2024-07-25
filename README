@@ -1,0 +1,34 @@
+This repository contains methods for detection and correction of batch effected data. It can be applied to any omics data in the format - features x counts.
+
+The scripts in this repository under 'workflow' are adjusted for flow cytometry data.
+
+The methods used are documented under the folders 'Batch effect detection' and 'Batch effect correction'
+
+
+.
+├── Batch effect correction 
+│   ├── BatchAdjust.R
+│   ├── CytoNorm.R
+│   └── CytofBatchAdjust.R
+├── Batch effect detection
+│   └── Beclear_batch_effect_detection.R
+├── Data
+│   ├── ChannelsToAdjust.txt
+│   ├── batch_data.xlsx
+│   └── panel.xlsx
+├── README
+├── Results
+│   ├── All plots.pptx
+│   ├── FlowRepository_FR-FCM-Z2YR_files.zip
+│   ├── LOG_BatchAdjust.2021.07.28.195027.txt
+│   ├── Output_FCS-to-CSV_2021-08-02_12-29-58
+│   ├── Results_CytofBatchAdjust_80p
+│   └── Results_CytofBatchAdjust_95p
+└── workflow
+    ├── Script_1.R
+    ├── Script_2.R
+    ├── Script_3.R
+    ├── Script_4.R
+    ├── Script_5.R
+    └── Script_6.R
+
